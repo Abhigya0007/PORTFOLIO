@@ -23,6 +23,8 @@ nav {
     align-items: center;
     height: 80px;
     padding: 0 20px;
+    background-color: black;
+
 }
 
 .left {
@@ -136,6 +138,8 @@ hr {
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
+    border:1px solid greenyellow;
+    box-shadow: 2px 2px greenyellow;
 }
 
 .about-left {
@@ -164,6 +168,8 @@ h3 {
     justify-content: space-between;
     gap: 40px;
     flex-wrap: wrap;
+    border:1px solid greenyellow;
+    box-shadow: 2px 2px greenyellow;
 }
 
 .skill-item {
@@ -203,6 +209,8 @@ h3 {
     border-radius: 5px;
     width: 110%;
     height: 100%;
+    border:1px solid greenyellow;
+    box-shadow: 2px 2px greenyellow;
 }
 
 .timeline-content h3 {
