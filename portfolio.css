@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body {
     background-color: rgba(0, 0, 0);
     color: white;
@@ -46,7 +48,7 @@ nav {
 
 nav ul li {
     display: inline-block;
-    list-style: none;
+    list-style: none;  
     margin: 0 30px;
     position: relative;
 }
@@ -404,7 +406,7 @@ textarea {
 
 .projects-content:hover {
     transform: scale(1.03);
-    transition: 0.3s ease;
+    transition: 0.3s ease-in-out;
 }
 
 .CV {
